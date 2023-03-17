@@ -23,10 +23,13 @@
     letter-spacing: 1px;
 }
 
-#statement {
+.statement {
     font-family: Unna;
     font-size: 1.7em;
-    margin-top: 20px;
+}
+
+.top-padding {
+    padding-top: 20px;
 }
 
 .flex-container {
