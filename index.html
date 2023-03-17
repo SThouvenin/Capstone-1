@@ -31,6 +31,7 @@
         <li class="nav-item">Login</li>
       </ul>
     </nav>
+    <main>
     <div class="hero-image">
       <div class="hero-text-left">
         <h2> Spring has Sprung! </h2>
@@ -46,8 +47,7 @@
       </div>
     </div>
   </header>
-  <main>
-    <h4>Check out our plants</h4>
+    <h4 id="statement">Check out our Products!</h4>
     <div class="all-products-container">
       <ul class="flex-container">
         <li class="list-flex-item"><a href="vegetables.html">
@@ -123,66 +123,89 @@
       </ul>
     </div>
 
-    <!-- <div class="featured-stock-items">
-      <div class="image-panel-individual">
-        <figure data-content-type="image">
-          <img class="content-image" src="./assets/tomato-featured.jpg" width="300px" height="400px"
-            title="Check out our selection of fresh vegetable plants and seeds" alt="Juicy Heirloom Tomatoes">
-          <figcaption>
-            <h4>Heirloom Tomatoes</h4>
-            <p class="home-page-featured-description">Our variety of Heirloom tomatoes are the juiciest variety yet!
+    <h4 id="statement">Featured Items!</h4>
+
+    <div class="featured-products-container">
+      <ul class="flex-featured-container">
+        <li class="list-featured-item">
+          <div class="image-featured-individual">
+            <img class="content-image-featured" src="./assets/tomato-featured.jpg"
+              title="Check out our selection of fresh vegetable plants and seeds" alt="Juicy Heirloom Tomatoes">
+          </div>
+          <h4 class="product-title">Heirloom Tomatoes</h4>
+            <p class="home-page-featured-description">Can we say best Salsa Ever?
             </p>
             <p class="home-page-prices">$9.73</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="image-panel-individual">
-        <figure data-content-type="image">
-          <img class="content-image" src="./assets/cucumber-featured.jpg" width="300px" height="400px"
-            title="Check out our selection of fresh vegetable plants and seeds" alt="Delicious Vegetable Plants">
-          <figcaption>
-            <h4>Refreshing Cucumbers!</h4>
-            <p class="home-page-featured-description">Refreshing and perfect for summer!</p>
-            <p class="home-page-prices">$7.25</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="image-panel-individual">
-        <figure data-content-type="image">
-          <img class="content-image" src="./assets/green-beans-featured.jpg" width="300px" height="400px"
-            title="Check out our selection of fresh vegetable plants and seeds" alt="Delicious Vegetable Plants">
-          <figcaption>
-            <h4>Jumbo Green Beans</h4>
-            <p class="home-page-featured-description">Our green beans pack a crunch and explosion of flavor!</p>
-            <p class="home-page-prices">$4.73</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="image-panel-individual">
-        <figure data-content-type="image">
-          <img class="content-image" src="./assets/peppers-featured.jpg" width="300px" height="400px"
-            title="Check out our selection of fresh vegetable plants and seeds" alt="Delicious Vegetable Plants">
-          <figcaption>
-            <h4>Heirloom Tomatoes</h4>
-            <p class="home-page-featured-description">You won't regret buying this vibrant and juicy variety of
-              peppers!</p>
-            <p class="home-page-prices">$7.26</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="image-panel-individual">
-        <figure data-content-type="image">
-          <img class="content-image" src="./assets/basil-featured.jpg" width="300px" height="400px"
-            title="Check out our selection of fresh vegetable plants and seeds" alt="Delicious Vegetable Plants">
-          <figcaption>
-            <h4>Basil</h4>
-            <p class="home-page-featured-description">Fresh Basil is the way to go to make the best bruichetta!</p>
-            <p class="home-page-prices">$3.77</p>
-          </figcaption>
-        </figure>
-      </div>
-    </div> -->
+        </li>
+          <ul class="flex-featured-container">
+            <li class="list-featured-item">
+              <div class="image-featured-individual">
+                <img class="content-image-featured" src="./assets/cucumber-featured.jpg"
+                  title="Check out our selection of fresh vegetable plants and seeds" alt="Delicious Cucumbers">
+                <h4 class="product-title">Refreshing Cucumbers!</h4>
+                <p class="home-page-featured-description">Refreshing and perfect for summer!</p>
+                <p class="home-page-prices">$7.25</p>
+              </div>
+            </li>
+            <ul class="flex-featured-container">
+              <li class="list-featured-item">
+                <div class="image-featured-individual">
+                  <img class="content-image-featured" src="./assets/green-beans-featured.jpg"
+                    title="Check out our selection of fresh vegetable plants and seeds"
+                    alt="Delicious Vegetable Plants">
+                  <h4 class="product-title">Jumbo Green Beans</h4>
+                  <p class="home-page-featured-description">Our green beans pack an explosion of flavor!</p>
+                  <p class="home-page-prices">$4.73</p>
+                </div>
+              </li>
+              <ul class="flex-featured-container">
+                <li class="list-featured-item">
+                  <div class="image-featured-individual">
+                    <img class="content-image-featured" src="./assets/peppers-featured.jpg"
+                      title="Check out our selection of fresh vegetable plants and seeds"
+                      alt="Delicious Vegetable Plants">
+                    <h4 class="product-title">Belliest Bell Peppers</h4>
+                    <p class="home-page-featured-description">You won't regret buying this vibrant and juicy variety
+                      of peppers!</p>
+                    <p class="home-page-prices">$7.26</p>
+                  </div>
+                </li>
+                <ul class="flex-featured-container">
+                  <li class="list-featured-item">
+                    <div class="image-featured-individual">
+                      <img class="content-image-featured" src="./assets/basil-featured.jpg"
+                        title="Check out our selection of fresh vegetable plants and seeds">
+                      <h4 class="product-title">Basil</h4>
+                      <p class="home-page-featured-description">Fresh Basil is the way to go to make the best
+                        bruchetta!
+                      </p>
+                      <p class="home-page-prices">$3.77</p>
+                    </div>
+                  </li>
+                </ul>
+        </div>
   </main>
+  <hr />
+  <footer>
+    <div class="footer-left">
+    <p>Spring into action by signing up for our news letter!</p>
+    <button>Sign up</button>
+  </div>
+  <div class="footer-center">
+    <p class="footer-bold">Contact Us:</p>
+    <p><a href="mailto: info@springseed.com">info@springseed.com</a></p>
+    <p><a href="tel:18005555555">1-800-555-5555</a></p>
+    <p class="street address">1 Plant Circle</p>
+    <p class="city-state-zip address">Pickerington, Ohio 43147</p>
+    </div>
+  <div class="footer-right">
+    <p class="footer-bold">Hours of Operation</p>
+    <p>Mon-Friday: 7am - 7pm</p>
+    <p>Sat: 7am - 8pm</p>
+    <p>Sun: Closed</p>
+  </div>
+  </div>
+  </footer>
   <script src="index.js"></script>
 </body>
 
