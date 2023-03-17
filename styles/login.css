@@ -1,0 +1,18 @@
+.hero-image-login {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../assets/login-hero.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#login-header {
+    padding: 30px 0;
+    font-size: 1.8em;
+}
+
+.sign-in-button {
+    margin: 25px 0;
+}

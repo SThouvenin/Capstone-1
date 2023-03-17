@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.opening-container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 4.5em;
+    align-self: center;
+    font-weight: 900;
+}
+
+.green-text {
+    color: #16a82f
+}
+
+.brown-text {
+    color: #61450c;
+}
+
+.logo {
+    width: 60px;
+}
+
+#nav-divider {
+    margin: 25px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.nav-item {
+    padding-right: 40px;
+    font-weight: 700;
+    font-size: 16px; 
+}
+
+.hero-text-left {
+    color: white;
+    text-align: right;
+    font-family: Bangers;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 7.5rem;
+    width: 500px;
+    transform: rotate(-15deg);
+}
+
+.hero-text-right {
+    text-align: center;
+    font-family: 'Unna';
+    font-size: 3em;
+    color: white;
+    width: 425px;
+    padding-top: 140px;
+    margin-right: 40px;
+    line-height: 55px;
+}
+
+.hero-text-center {
+    color: white;
+    text-align: center;
+    font-family: Bangers;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 7.5rem;
+    width: 500px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 75px 25px 50px;
+}
+
+footer p {
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.footer-bold {
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+button {
+    padding-top: 15px;
+}

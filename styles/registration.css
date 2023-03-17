@@ -1,0 +1,32 @@
+.hero-image-registration {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../assets/registration-hero.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text-center {
+    text-align: center;
+}
+
+.form-sizing {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.registration-header {
+    padding-top: 30px;
+    font-size: 1.8em;
+}
+
+.form-check-label {
+    padding-top: 5px;
+}
+
+hr {
+    margin-top: 45px;
+}

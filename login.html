@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/header-footer.css">
   <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/login.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dosis:wght@400;700&family=Roboto:wght@100;400;700&family=Unna:wght@400;700&display=swap');
   </style>
@@ -31,22 +34,44 @@
       </ul>
     </nav>
 
-    <div class="hero-image">
-      <div class="hero-text-left">
-        <h2> Spring has Sprung! </h2>
-      </div>
-      <div class="hero-text-right">
-        <h3>
-          <span class="hero-text-new transform-to-uppercase">New!</span>
-          <span class="transform-to-uppercase">'Fire-red' Marigold Variety</span>
-          <div>
-            <a><span class="underline-with-spaces">Shop Seeds Now</span></a>
-          </div>
-        </h3>
+    <div class="hero-image-login">
+      <div class="hero-text-center">
+        <h2> Login </h2>
       </div>
     </div>
   </header>
-  <main></main>
+  <main>
+ 
+    <hr />
+        <h2 id="login-header">
+           Login:
+        </h2>
+    <form>
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="form2Example1" class="form-control" />
+        <label class="form-label" for="form2Example1">Email address</label>
+      </div>
+    
+
+      <div class="form-outline mb-4">
+        <input type="password" id="form2Example2" class="form-control" />
+        <label class="form-label" for="form2Example2">Password</label>
+      </div>
+        <div class="col text-center">
+          <a href="#!">Forgot password?</a>
+        </div>
+      </div>
+      <div class="text-center">
+      <button class="btn btn-primary mx-1 sign-in-button" type="submit">Sign in</button>
+     
+        <p>Not a member? <a href="./registration.html">Register</a></p>
+
+      </div>
+    </form>
+
+
+  </main>
   <hr />
   <footer>
     <div class="footer-left">
