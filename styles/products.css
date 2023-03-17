@@ -1,0 +1,18 @@
+.hero-image-products {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../assets/products-hero.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.products-header {
+    padding: 30px 0;
+    font-size: 1.8em;
+}
+
+thead {
+    font-weight: bold;
+}
