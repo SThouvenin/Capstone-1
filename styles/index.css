@@ -51,9 +51,7 @@
 
 .list-flex-item {
     flex-grow:1;
-    max-width: 320px;
-    padding-top: 20px;
-    padding-right: 20px;
+    max-width: 500px;
     color: black;
     text-transform: uppercase;
     font-size:1em;
